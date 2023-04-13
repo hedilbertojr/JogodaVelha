@@ -1,0 +1,71 @@
+/* PALETA DE CORES
+.color1 { #8d9c9d };
+.color2 { #e00b5b };
+.color3 { #f5b04b };
+.color4 { #1b191a };
+.color5 { #45373e };
+.color6 { #f1f1f1 };
+.color6 { #362d32 };
+*/
+
+
+
+
+body {
+    font-family: sans-serif;
+    background-color: #45373e;
+  }
+
+  #game {
+    text-align: center;
+    font-style: italic;
+    color: #ddd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+  }
+  
+  .cell {
+    background-color: #f5c57d;
+    border: 1px solid #aaa;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color:#362d32
+  }
+  
+  .cell:hover {
+    background-color: #ddd;
+  }
+  
+  #result {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #restart {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #f5c57d;
+    color: #45373e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  #restart:hover {
+    background-color: #f5b04b;
+  }
+  
